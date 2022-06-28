@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:linear-gradient(to left, aqua, violet);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+header img{
+    width: 300px;
+}
+section{
+    background-color: aqua;
+}
