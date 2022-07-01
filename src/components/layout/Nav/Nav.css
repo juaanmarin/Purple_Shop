@@ -1,0 +1,20 @@
+nav{
+    background-color: aqua;
+    height: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+nav a{
+    font-family: cursive;
+    text-decoration: none;
+    /* text-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: white;
+}
+nav a:hover{
+    transition: 500ms;
+    font-size: 30px;
+}
