@@ -8,8 +8,8 @@ export const Nav = () => {
         <Anchor className="a" references="/" textAnchor="Home"></Anchor>  
         <Anchor className="b" references="/" textAnchor="Women"></Anchor>
         <Anchor className="c" references="/" textAnchor="Men"></Anchor>
-        <Anchor className="d" references="/" textAnchor="other"></Anchor>
-        <Anchor className="e" references="/" textAnchor="other"></Anchor>
+        <Anchor className="d" references="/login" textAnchor="login"></Anchor>
+        <Anchor className="e" references="/singup" textAnchor="singup"></Anchor>
       </nav>
   )
 }

@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    background: linear-gradient(175deg, #b58edf, rgb(106, 41, 228));
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
