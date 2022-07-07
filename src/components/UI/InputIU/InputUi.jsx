@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const InputUi = ({input_text}) => {
+export const InputUi = ({input_text, classInput="inputIU"}) => {
   return (
-    <input type="text" placeholder={input_text}></input>
+    <input className={classInput} type="text" placeholder={input_text}></input>
   )
 }

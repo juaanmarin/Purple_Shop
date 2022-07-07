@@ -2,20 +2,111 @@
     display: flex;
     height: 100vh;
 }
-.right{
+.logo_contaier{
+    width: 200px;
+    height: 200px; 
+    background-color: #b58edf;
+    position: fixed;
+    left: 45%;
+    border-radius: 70%;
+}
+.logo{
+    width: 200px;
+    height: 200px; 
+}
+.left{
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    font-size: 20px;
 }
-.left{
+.input_container{
+    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:30px repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.documentI{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    color: white;
+    background-color: #b58edf;
+    border-radius: 20px;
+    grid-column: 2/2;
+    grid-row: 1/1;
+}
+.documentI::placeholder{
+    color: white;
+}
+.passwordI{
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    color: white;
+    background-color: #b58edf;
+    border-radius: 20px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.passwordI::placeholder{
+    color: white;
+}
+.icon1{
+    width: 35px;
+}
+.icon2{
+    width: 35px;
+}
+.buttonUI{
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #b58edf;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.buttonUI:hover{
+    height: 35px;
+    width: 210px;
+    cursor: pointer;
+}
+.right{
     background: linear-gradient(175deg, #b58edf, rgb(106, 41, 228));
     width: 50%;
     height: 100%;
     display: flex;
+    gap: 10px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
+    color: white;
+}
+.registerButton{
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #b58edf;
+    border-radius: 20px;
+}
+.registerButton:hover{
+    height: 35px;
+    width: 210px;
+    cursor: pointer;
 }
