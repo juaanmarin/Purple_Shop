@@ -20,10 +20,10 @@ export const Login = () => {
         <div className='input_container'>
           <IconUI iconstyle='icon2' icon={idUser}/>
           <IconUI iconstyle='icon1' icon={pass}/>
-          <InputUi classInput='documentI' input_text="documento"/>
-          <InputUi classInput='passwordI' input_text="contraseña"/>
+          <InputUi classInput='documentI' input_text="Email"/>
+          <InputUi classInput='passwordI' input_text="Contraseña"/>
         </div>   
-        <ButtonUi button_text="ingresar"/>
+        <ButtonUi button_text="Ingresar"/>
       </div>
       <div className='logo_contaier'>
         <LogoUI/>
@@ -33,7 +33,7 @@ export const Login = () => {
         <h2>Bienvenido!</h2>
         <h3>Crea una cuenta</h3>
         
-        <Anchor className="e" references="/singup" textAnchor={<ButtonUi buttonClass='registerButton' button_text="Registrese"  />}></Anchor>
+        <Anchor className="e  " references="/singup" textAnchor={<ButtonUi buttonClass='registerButton' button_text="Registrese"  />}></Anchor>
         
       </div>
     </div>
