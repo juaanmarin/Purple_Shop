@@ -5,7 +5,7 @@ import { Nav } from '../../layout/Nav/Nav'
 import "./Home.css"
 import "./styles.css"
 import { presentation } from "./data"
-
+import { Card } from '../../UI/Card/Card';
 
 export const Home = () => {
   return (
@@ -29,9 +29,10 @@ export const Home = () => {
         <div className='main_cards_container'>
           {presentation.map((slideImage, index)=> (
             <div className="each-slide" key={index}>
-              <div> 
+              <Card img={slideImage.img}></Card>
+              {/* <div> 
                 <img src={slideImage.img} alt='img'></img>
-              </div>
+              </div> */}
             </div>
           ))} 
         </div>
